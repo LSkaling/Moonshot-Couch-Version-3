@@ -26,11 +26,12 @@ left_rpm = 0
 right_rpm = 0
 voltage = 0
 temperature = 0
+couch_mode = 0 # 0 = park, 1 = neutral, 2 = chill, 3 = speed, 4 = ludicrous 
 
 def update_ui_periodically(app):
     count = 70
     while True:
-        app.update_ui(int(speed), odo, left_power, right_power, debugInfo)
+        app.update_ui(int(speed), odo, left_power, right_power, debugInfo, couch_mode)
         count += 1
         time.sleep(0.2)  # Update 5 times a second
 
@@ -75,6 +76,17 @@ def joystick_motor_control():
             rpm_to_mph = 8 * 3.14 * 60 / 5280 / 12
 
             speed = (((left_rpm + right_rpm) / 2) / 15) * rpm_to_mph #Convert ERPM to RPM
+
+            if joystick.isPressed('T1'):
+                couch_mode = 0
+            elif joystick.isPressed('T2'):
+                couch_mode = 1
+            elif joystick.isPressed('T3'):
+                couch_mode = 2
+            elif joystick.isPressed('T5'):
+                couch_mode = 3
+            elif joystick.isPressed('T7'):
+                couch_mode = 4
 
             if joystick.isPressed('TRIGGER'):
                 try:

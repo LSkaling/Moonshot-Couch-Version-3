@@ -6,7 +6,7 @@ os.environ['DISPLAY'] = ':0'
 class ScreenUI:
     def __init__(self, root):
         self.root = root
-        #root.attributes('-fullscreen', True)
+        root.attributes('-fullscreen', True)
         self.root.title("Screen UI")
         self.root.geometry("800x480")
         self.root.configure(bg='white')  # Set the background color of the window to white
@@ -16,7 +16,7 @@ class ScreenUI:
         self.center_line.place(x=398, y=0)
         
         # Large text box in the top right half with the text "69"
-        self.text_box = tk.Text(root, wrap=tk.WORD, font=('Helvetica', 100), bg='white', fg='black', bd=0, highlightthickness=0)
+        self.text_box = tk.Text(root, wrap=tk.WORD, font=('Helvetica', 69), bg='white', fg='black', bd=0, highlightthickness=0)
         self.text_box.place(x=0, y=20, width=398, height=100)
         self.text_box.tag_configure("center", justify='center')
         self.text_box.insert(tk.END, "69\n", "center")      
