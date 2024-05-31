@@ -17,7 +17,7 @@ class ScreenUI:
         
         # Large text box in the top right half with the text "69"
         self.text_box = tk.Text(root, wrap=tk.WORD, font=('Helvetica', 69), bg='white', fg='black', bd=0, highlightthickness=0)
-        self.text_box.place(x=0, y=20, width=398, height=100)
+        self.text_box.place(x=0, y=30, width=398, height=100)
         self.text_box.tag_configure("center", justify='center')
         self.text_box.insert(tk.END, "69\n", "center")      
 
@@ -70,6 +70,10 @@ class ScreenUI:
         self.right_power_green.place(height=right_power, y = 260 - right_power)
 
         self.odo_label.config(text="ODO: " + str(odo) + " miles")
+
+        drive_mode = drive_mode - 1
+        if drive_mode < 0:
+            drive_mode = 0
 
         for i in range(len(self.labels_container)):
             self.labels_container[i].config(fg='grey', font=('Helvetica', 18, 'normal'))

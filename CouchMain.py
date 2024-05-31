@@ -6,7 +6,6 @@ from typing import Tuple
 
 import Gamepad.Gamepad as Gamepad
 import Gamepad.Controllers as Controllers
-import time
 from detect_motor_controllers import get_motor_controllers
 import mathutils
 
@@ -43,6 +42,7 @@ def joystick_motor_control():
     global debugInfo
     global voltage
     global temperature
+    global couch_mode
     # Waits for the joystick to be connected
     while not Gamepad.available():
         print("Please connect your gamepad")
@@ -79,14 +79,23 @@ def joystick_motor_control():
 
             if joystick.isPressed('T1'):
                 couch_mode = 0
+                left_motor.set_rpm(0)
+                right_motor.set_rpm(0)
+                print("Motors set to brake state (park)")
             elif joystick.isPressed('T2'):
                 couch_mode = 1
+                left_motor.set_current(0) 
+                right_motor.set_current(0)
+                print("Motors set to loose state (neutral)")
             elif joystick.isPressed('T3'):
                 couch_mode = 2
+                print("Motors set to brake state (chill)")
             elif joystick.isPressed('T5'):
                 couch_mode = 3
+                print("Motors set to brake state (speed)")
             elif joystick.isPressed('T7'):
                 couch_mode = 4
+                print("Motors set to brake state (ludicrous)")
 
             if joystick.isPressed('TRIGGER'):
                 try:
@@ -95,15 +104,12 @@ def joystick_motor_control():
                     print("Playing sound")
                 except Exception as e:
                     print(f"Failed to play sound: {e}")
-                #time.sleep(0.5)
 
-            #print(f"Left: {ik_left}, Right: {ik_right}, Left RPM: {left_rpm}, Right RPM {right_rpm}")
-
-            left_motor.set_rpm(ik_left)
-            right_motor.set_rpm(ik_right)
+            if couch_mode > 1:
+                left_motor.set_rpm(ik_left)
+                right_motor.set_rpm(ik_right)
 
             try:
-
                 measurements_left = left_motor.get_measurements()
                 measurements_right = right_motor.get_measurements()
 
