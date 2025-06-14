@@ -9692,3 +9692,135 @@ Traceback (most recent call last):
   File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
     pygame.mixer.init()
 pygame.error: ALSA: Couldn't open audio device: Unknown error 524
+X connection to :0 broken (explicit kill or server shutdown).
+<frozen importlib._bootstrap>:241: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+Exception in thread Thread-2 (joystick_motor_control):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
+    pygame.mixer.init()
+pygame.error: ALSA: Couldn't open audio device: Unknown error 524
+<frozen importlib._bootstrap>:241: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+Exception in thread Thread-2 (joystick_motor_control):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
+    pygame.mixer.init()
+pygame.error: ALSA: Couldn't open audio device: Unknown error 524
+<frozen importlib._bootstrap>:241: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+Exception in thread Thread-2 (joystick_motor_control):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
+    pygame.mixer.init()
+pygame.error: ALSA: Couldn't open audio device: Unknown error 524
+<frozen importlib._bootstrap>:241: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+Exception in thread Thread-2 (joystick_motor_control):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
+    pygame.mixer.init()
+pygame.error: ALSA: Couldn't open audio device: Unknown error 524
+<frozen importlib._bootstrap>:241: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+Exception in thread Thread-2 (joystick_motor_control):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
+    pygame.mixer.init()
+pygame.error: ALSA: Couldn't open audio device: Unknown error 524
+<frozen importlib._bootstrap>:241: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+Exception in thread Thread-2 (joystick_motor_control):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
+    pygame.mixer.init()
+pygame.error: ALSA: Couldn't open audio device: Unknown error 524
+<frozen importlib._bootstrap>:241: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+Exception in thread Thread-2 (joystick_motor_control):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
+    pygame.mixer.init()
+pygame.error: ALSA: Couldn't open audio device: Unknown error 524
+<frozen importlib._bootstrap>:241: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+Exception in thread Thread-2 (joystick_motor_control):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
+    pygame.mixer.init()
+pygame.error: ALSA: Couldn't open audio device: Unknown error 524
+<frozen importlib._bootstrap>:241: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+Exception in thread Thread-2 (joystick_motor_control):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
+    pygame.mixer.init()
+pygame.error: ALSA: Couldn't open audio device: Unknown error 524
+<frozen importlib._bootstrap>:241: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+Exception in thread Thread-2 (joystick_motor_control):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
+    pygame.mixer.init()
+pygame.error: ALSA: Couldn't open audio device: Unknown error 524
+<frozen importlib._bootstrap>:241: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+Exception in thread Thread-2 (joystick_motor_control):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
+    pygame.mixer.init()
+pygame.error: ALSA: Couldn't open audio device: Unknown error 524
+<frozen importlib._bootstrap>:241: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+Invalid MIT-MAGIC-COOKIE-1 key
+Exception in thread Thread-2 (joystick_motor_control):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
+    pygame.mixer.init()
+pygame.error: ALSA: Couldn't open audio device: Unknown error 524
+<frozen importlib._bootstrap>:241: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+Exception in thread Thread-2 (joystick_motor_control):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ssi/Moonshot_Couch_V3/main.py", line 53, in joystick_motor_control
+    pygame.mixer.init()
+pygame.error: ALSA: Couldn't open audio device: Unknown error 524
